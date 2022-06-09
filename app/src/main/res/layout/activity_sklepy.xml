@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sklepy_Activity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nazwaET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="Podaj nazwe sklepu" />
+
+    <EditText
+        android:id="@+id/opisET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Podaj opis sklepu" />
+
+    <EditText
+        android:id="@+id/promienET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="podaj promień " />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sklep doda się z aktuakną Lokalizacją " />
+
+    <Button
+        android:id="@+id/dodajbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodaj sklep"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/pokazBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pokaż liste sklepów "
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/mapaBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wyświetl ostatni sklep na mapie"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
